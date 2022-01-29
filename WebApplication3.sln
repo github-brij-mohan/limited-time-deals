@@ -3,17 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication3", "WebApplication3\WebApplication3.csproj", "{D6D833E7-EE8C-438F-9360-3F08718B9DFC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimitedTimeDeals.WebApi", "WebApplication3\LimitedTimeDeals.WebApi.csproj", "{D6D833E7-EE8C-438F-9360-3F08718B9DFC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Host", "Host", "{783EEE83-42CD-4F5E-AC63-74F92F7B686B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{0E3294BA-BB88-452E-A18A-6360D615F536}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Contracts", "Contracts", "{46EB2EF3-A459-4CC6-B165-74FAF40E0E75}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimitedTimeDeals.Services", "Services\LimitedTimeDeals.Services.csproj", "{2FF86320-7332-4FFA-9AB6-B1B17580ABB8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{2FF86320-7332-4FFA-9AB6-B1B17580ABB8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{CFE6C32A-FB17-4B00-8147-1861C0217915}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LimitedTimeDeals.Core", "Core\LimitedTimeDeals.Core.csproj", "{CFE6C32A-FB17-4B00-8147-1861C0217915}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,7 +37,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{D6D833E7-EE8C-438F-9360-3F08718B9DFC} = {783EEE83-42CD-4F5E-AC63-74F92F7B686B}
-		{46EB2EF3-A459-4CC6-B165-74FAF40E0E75} = {783EEE83-42CD-4F5E-AC63-74F92F7B686B}
 		{2FF86320-7332-4FFA-9AB6-B1B17580ABB8} = {783EEE83-42CD-4F5E-AC63-74F92F7B686B}
 		{CFE6C32A-FB17-4B00-8147-1861C0217915} = {0E3294BA-BB88-452E-A18A-6360D615F536}
 	EndGlobalSection
